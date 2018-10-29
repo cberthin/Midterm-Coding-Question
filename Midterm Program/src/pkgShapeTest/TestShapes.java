@@ -153,8 +153,7 @@ public class TestShapes {
 		
 	@Test
 	public void sortByVolume_test1() {
-		System.out.println(
-				);
+		System.out.println();
 		Cuboid c1= new Cuboid(1,2,3); //6
 		System.out.println(c1.volume());
 		Cuboid c2= new Cuboid(1,1,1); //1
@@ -178,7 +177,7 @@ public class TestShapes {
 		
 	}
 	
-	
+
 	
 	
 	

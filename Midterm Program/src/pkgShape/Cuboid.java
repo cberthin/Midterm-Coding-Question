@@ -32,11 +32,7 @@ public class Cuboid extends Rectangle{
 	public double perimeter() {
 		throw new UnsupportedOperationException("This method is not supported for Cuboids");
 	}
-	
-	//*public compareTo()
-	
-	//*
-	
+		
 	public static class SortByArea implements Comparator<Cuboid>{		
 		public int compare(Cuboid c1, Cuboid c2){
 			if(c1.area()>c2.area()) {
